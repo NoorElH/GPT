@@ -1,0 +1,13 @@
+=== Gradient Boosting ===
+Accuracy: 0.8247723132969035
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          -1       0.00      0.00      0.00       338
+           0       0.69      0.12      0.20      1182
+           1       0.83      0.99      0.90      6715
+
+    accuracy                           0.82      8235
+   macro avg       0.51      0.37      0.37      8235
+weighted avg       0.77      0.82      0.76      8235
