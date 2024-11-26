@@ -1,0 +1,137 @@
+=== Summary for Hospital_1 ===
+Columns:
+patient ID, patient ID.1, nationality, age, gender K=female E=male, date_of_first_symptoms, BASVURUTARIHI, fever_temperature, oxygen_saturation, history_of_fever, cough, sore_throat, runny_nose, wheezing, shortness_of_breath, lower_chest_wall_indrawing, chest_pain, conjunctivitis, lymphadenopathy, headache, loss_of_smell, loss_of_taste, fatigue_malaise, anorexia, altered_consciousness_confusion, muscle_aches, joint_pain, inability_to_walk, abdominal_pain, diarrhoea, vomiting_nausea, skin_rash, bleeding, other_symptoms, chronic_cardiac_disease, hypertension, chronic_pulmonary_disease, asthma, chronic_kidney_disease, obesity, liver_disease, asplenia, chronic_neurological_disorder, malignant_neoplasm, chronic_hematologic_disease, AIDS_HIV, diabetes_mellitus_type_1, diabetes_mellitus_type_2, rheumatologic_disorder, dementia, tuberculosis, smoking, other_risks, PCR_result
+
+Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 14712 entries, 0 to 14711
+Data columns (total 54 columns):
+ #   Column                           Non-Null Count  Dtype         
+---  ------                           --------------  -----         
+ 0   patient ID                       14712 non-null  int64         
+ 1   patient ID.1                     14712 non-null  int64         
+ 2   nationality                      14712 non-null  object        
+ 3   age                              14712 non-null  int64         
+ 4   gender K=female E=male           14712 non-null  object        
+ 5   date_of_first_symptoms           14712 non-null  datetime64[ns]
+ 6   BASVURUTARIHI                    14712 non-null  datetime64[ns]
+ 7   fever_temperature                14244 non-null  float64       
+ 8   oxygen_saturation                14708 non-null  float64       
+ 9   history_of_fever                 14712 non-null  int64         
+ 10  cough                            14712 non-null  int64         
+ 11  sore_throat                      14712 non-null  int64         
+ 12  runny_nose                       14712 non-null  int64         
+ 13  wheezing                         14712 non-null  int64         
+ 14  shortness_of_breath              14712 non-null  int64         
+ 15  lower_chest_wall_indrawing       14712 non-null  int64         
+ 16  chest_pain                       14712 non-null  int64         
+ 17  conjunctivitis                   14712 non-null  int64         
+ 18  lymphadenopathy                  14712 non-null  int64         
+ 19  headache                         14712 non-null  int64         
+ 20  loss_of_smell                    14712 non-null  int64         
+ 21  loss_of_taste                    14712 non-null  int64         
+ 22  fatigue_malaise                  14712 non-null  int64         
+ 23  anorexia                         14712 non-null  int64         
+ 24  altered_consciousness_confusion  14712 non-null  int64         
+ 25  muscle_aches                     14712 non-null  int64         
+ 26  joint_pain                       14712 non-null  int64         
+ 27  inability_to_walk                14712 non-null  int64         
+ 28  abdominal_pain                   14712 non-null  int64         
+ 29  diarrhoea                        14712 non-null  int64         
+ 30  vomiting_nausea                  14712 non-null  int64         
+ 31  skin_rash                        14712 non-null  int64         
+ 32  bleeding                         14712 non-null  int64         
+ 33  other_symptoms                   14712 non-null  int64         
+ 34  chronic_cardiac_disease          14712 non-null  int64         
+ 35  hypertension                     14712 non-null  int64         
+ 36  chronic_pulmonary_disease        14712 non-null  int64         
+ 37  asthma                           14712 non-null  int64         
+ 38  chronic_kidney_disease           14705 non-null  float64       
+ 39  obesity                          14690 non-null  float64       
+ 40  liver_disease                    14706 non-null  float64       
+ 41  asplenia                         14690 non-null  float64       
+ 42  chronic_neurological_disorder    14710 non-null  float64       
+ 43  malignant_neoplasm               14712 non-null  int64         
+ 44  chronic_hematologic_disease      14710 non-null  float64       
+ 45  AIDS_HIV                         14710 non-null  float64       
+ 46  diabetes_mellitus_type_1         14709 non-null  float64       
+ 47  diabetes_mellitus_type_2         14710 non-null  float64       
+ 48  rheumatologic_disorder           14710 non-null  float64       
+ 49  dementia                         14710 non-null  float64       
+ 50  tuberculosis                     14712 non-null  int64         
+ 51  smoking                          14712 non-null  int64         
+ 52  other_risks                      14712 non-null  int64         
+ 53  PCR_result                       13536 non-null  object        
+dtypes: datetime64[ns](2), float64(13), int64(36), object(3)
+memory usage: 6.1+ MB
+
+
+Missing Values (%):
+patient ID                         0.000000
+patient ID.1                       0.000000
+nationality                        0.000000
+age                                0.000000
+gender K=female E=male             0.000000
+date_of_first_symptoms             0.000000
+BASVURUTARIHI                      0.000000
+fever_temperature                  0.031811
+oxygen_saturation                  0.000272
+history_of_fever                   0.000000
+cough                              0.000000
+sore_throat                        0.000000
+runny_nose                         0.000000
+wheezing                           0.000000
+shortness_of_breath                0.000000
+lower_chest_wall_indrawing         0.000000
+chest_pain                         0.000000
+conjunctivitis                     0.000000
+lymphadenopathy                    0.000000
+headache                           0.000000
+loss_of_smell                      0.000000
+loss_of_taste                      0.000000
+fatigue_malaise                    0.000000
+anorexia                           0.000000
+altered_consciousness_confusion    0.000000
+muscle_aches                       0.000000
+joint_pain                         0.000000
+inability_to_walk                  0.000000
+abdominal_pain                     0.000000
+diarrhoea                          0.000000
+vomiting_nausea                    0.000000
+skin_rash                          0.000000
+bleeding                           0.000000
+other_symptoms                     0.000000
+chronic_cardiac_disease            0.000000
+hypertension                       0.000000
+chronic_pulmonary_disease          0.000000
+asthma                             0.000000
+chronic_kidney_disease             0.000476
+obesity                            0.001495
+liver_disease                      0.000408
+asplenia                           0.001495
+chronic_neurological_disorder      0.000136
+malignant_neoplasm                 0.000000
+chronic_hematologic_disease        0.000136
+AIDS_HIV                           0.000136
+diabetes_mellitus_type_1           0.000204
+diabetes_mellitus_type_2           0.000136
+rheumatologic_disorder             0.000136
+dementia                           0.000136
+tuberculosis                       0.000000
+smoking                            0.000000
+other_risks                        0.000000
+PCR_result                         0.079935
+
+Summary Statistics:
+          patient ID  patient ID.1 nationality           age gender K=female E=male         date_of_first_symptoms                  BASVURUTARIHI  fever_temperature  oxygen_saturation  history_of_fever         cough   sore_throat    runny_nose      wheezing  shortness_of_breath  lower_chest_wall_indrawing    chest_pain  conjunctivitis  lymphadenopathy      headache  loss_of_smell  loss_of_taste  fatigue_malaise      anorexia  altered_consciousness_confusion  muscle_aches    joint_pain  inability_to_walk  abdominal_pain     diarrhoea  vomiting_nausea     skin_rash      bleeding  other_symptoms  chronic_cardiac_disease  hypertension  chronic_pulmonary_disease        asthma  chronic_kidney_disease       obesity  liver_disease      asplenia  chronic_neurological_disorder  malignant_neoplasm  chronic_hematologic_disease      AIDS_HIV  diabetes_mellitus_type_1  diabetes_mellitus_type_2  rheumatologic_disorder      dementia  tuberculosis      smoking   other_risks PCR_result
+count   1.471200e+04  1.471200e+04       14712  14712.000000                  14712                          14712                          14712       14244.000000       14708.000000      14712.000000  14712.000000  14712.000000  14712.000000  14712.000000         14712.000000                14712.000000  14712.000000    14712.000000     14712.000000  14712.000000   14712.000000   14712.000000     14712.000000  14712.000000                     14712.000000  14712.000000  14712.000000       14712.000000    14712.000000  14712.000000     14712.000000  14712.000000  14712.000000    14712.000000             14712.000000  14712.000000               14712.000000  14712.000000            14705.000000  14690.000000   14706.000000  14690.000000                   14710.000000        14712.000000                 14710.000000  14710.000000              14709.000000              14710.000000            14710.000000  14710.000000  14712.000000  14712.00000  14712.000000      13536
+unique           NaN           NaN          97           NaN                      2                            NaN                            NaN                NaN                NaN               NaN           NaN           NaN           NaN           NaN                  NaN                         NaN           NaN             NaN              NaN           NaN            NaN            NaN              NaN           NaN                              NaN           NaN           NaN                NaN             NaN           NaN              NaN           NaN           NaN             NaN                      NaN           NaN                        NaN           NaN                     NaN           NaN            NaN           NaN                            NaN                 NaN                          NaN           NaN                       NaN                       NaN                     NaN           NaN           NaN          NaN           NaN          2
+top              NaN           NaN        T.C.           NaN                      K                            NaN                            NaN                NaN                NaN               NaN           NaN           NaN           NaN           NaN                  NaN                         NaN           NaN             NaN              NaN           NaN            NaN            NaN              NaN           NaN                              NaN           NaN           NaN                NaN             NaN           NaN              NaN           NaN           NaN             NaN                      NaN           NaN                        NaN           NaN                     NaN           NaN            NaN           NaN                            NaN                 NaN                          NaN           NaN                       NaN                       NaN                     NaN           NaN           NaN          NaN           NaN   positive
+freq             NaN           NaN       13755           NaN                   8276                            NaN                            NaN                NaN                NaN               NaN           NaN           NaN           NaN           NaN                  NaN                         NaN           NaN             NaN              NaN           NaN            NaN            NaN              NaN           NaN                              NaN           NaN           NaN                NaN             NaN           NaN              NaN           NaN           NaN             NaN                      NaN           NaN                        NaN           NaN                     NaN           NaN            NaN           NaN                            NaN                 NaN                          NaN           NaN                       NaN                       NaN                     NaN           NaN           NaN          NaN           NaN      12434
+mean    4.954103e+07  4.956224e+07         NaN     44.969413                    NaN  2021-10-28 17:46:00.195758592  2021-10-28 17:46:00.195758592          37.343555          93.667596          0.253331      0.245514      0.222471      0.204119      0.015701             0.221656                    0.001291      0.013934        0.001223         0.002651      0.192836       0.002039       0.001291         0.211256      0.002039                         0.001767      0.003059      0.005778           0.001020        0.016245      0.200245         0.200585      0.001699      0.001495        0.001427                 0.007885      0.195419                   0.002923      0.193108                0.002040      0.002314       0.004284      0.001634                       0.001632            0.004554                     0.001835      0.001496                  0.001768                  0.002379                0.001971      0.001632      0.001767      0.03752      0.001359        NaN
+min     5.680000e+02  5.680000e+02         NaN     -1.000000                    NaN            2021-05-01 00:00:00            2021-05-01 00:00:00          35.000000          -1.000000          0.000000      0.000000      0.000000      0.000000      0.000000             0.000000                    0.000000      0.000000        0.000000         0.000000      0.000000       0.000000       0.000000         0.000000      0.000000                         0.000000      0.000000      0.000000           0.000000        0.000000      0.000000         0.000000      0.000000      0.000000        0.000000                 0.000000      0.000000                   0.000000      0.000000                0.000000      0.000000       0.000000      0.000000                       0.000000            0.000000                     0.000000      0.000000                  0.000000                  0.000000                0.000000      0.000000      0.000000      0.00000      0.000000        NaN
+25%     2.438182e+07  2.439289e+07         NaN     31.000000                    NaN            2021-08-14 00:00:00            2021-08-14 00:00:00          36.700000          94.000000          0.000000      0.000000      0.000000      0.000000      0.000000             0.000000                    0.000000      0.000000        0.000000         0.000000      0.000000       0.000000       0.000000         0.000000      0.000000                         0.000000      0.000000      0.000000           0.000000        0.000000      0.000000         0.000000      0.000000      0.000000        0.000000                 0.000000      0.000000                   0.000000      0.000000                0.000000      0.000000       0.000000      0.000000                       0.000000            0.000000                     0.000000      0.000000                  0.000000                  0.000000                0.000000      0.000000      0.000000      0.00000      0.000000        NaN
+50%     4.945251e+07  4.949977e+07         NaN     43.000000                    NaN            2021-11-12 00:00:00            2021-11-12 00:00:00          37.200000          95.000000          0.000000      0.000000      0.000000      0.000000      0.000000             0.000000                    0.000000      0.000000        0.000000         0.000000      0.000000       0.000000       0.000000         0.000000      0.000000                         0.000000      0.000000      0.000000           0.000000        0.000000      0.000000         0.000000      0.000000      0.000000        0.000000                 0.000000      0.000000                   0.000000      0.000000                0.000000      0.000000       0.000000      0.000000                       0.000000            0.000000                     0.000000      0.000000                  0.000000                  0.000000                0.000000      0.000000      0.000000      0.00000      0.000000        NaN
+75%     7.415643e+07  7.417107e+07         NaN     60.000000                    NaN            2022-01-13 00:00:00            2022-01-13 00:00:00          38.000000          96.000000          1.000000      0.000000      0.000000      0.000000      0.000000             0.000000                    0.000000      0.000000        0.000000         0.000000      0.000000       0.000000       0.000000         0.000000      0.000000                         0.000000      0.000000      0.000000           0.000000        0.000000      0.000000         0.000000      0.000000      0.000000        0.000000                 0.000000      0.000000                   0.000000      0.000000                0.000000      0.000000       0.000000      0.000000                       0.000000            0.000000                     0.000000      0.000000                  0.000000                  0.000000                0.000000      0.000000      0.000000      0.00000      0.000000        NaN
+max     9.998049e+07  9.998049e+07         NaN    100.000000                    NaN            2022-03-14 00:00:00            2022-03-14 00:00:00          39.800000         100.000000          1.000000      1.000000      1.000000      1.000000      1.000000             1.000000                    1.000000      1.000000        1.000000         1.000000      1.000000       1.000000       1.000000         1.000000      1.000000                         1.000000      1.000000      1.000000           1.000000        1.000000      1.000000         1.000000      1.000000      1.000000        1.000000                 1.000000      1.000000                   1.000000      1.000000                1.000000      1.000000       1.000000      1.000000                       1.000000            1.000000                     1.000000      1.000000                  1.000000                  1.000000                1.000000      1.000000      1.000000      1.00000      1.000000        NaN
+std     2.890097e+07  2.889822e+07         NaN     19.618266                    NaN                            NaN                            NaN           0.790140           8.046188          0.434933      0.430406      0.415920      0.403070      0.124322             0.415375                    0.035915      0.117222        0.034958         0.051420      0.394539       0.045112       0.035915         0.408214      0.045112                         0.042003      0.055223      0.075793           0.031916        0.126422      0.400197         0.400451      0.041189      0.038643        0.037755                 0.088448      0.396536                   0.053986      0.394750                0.045123      0.048055       0.065314      0.040388                       0.040361            0.067333                     0.042805      0.038645                  0.042007                  0.048722                0.044359      0.040361      0.042003      0.19004      0.036847        NaN
